@@ -1,5 +1,9 @@
 {
   "expo": {
+    "scheme": "shelfieapp",
+    "experiments": {
+      "typedRoutes": true
+    },
     "name": "React-Native-Tutorial",
     "slug": "React-Native-Tutorial",
     "version": "1.0.0",
@@ -24,6 +28,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
