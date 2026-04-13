@@ -35,6 +35,13 @@ const Login = () => {
         </ThemedText>
       </Link>
 
+      <Spacer height={100} />
+      <Link href="/index">
+        <ThemedText style={{ textAlign: "center" }}>
+            Go home :)
+        </ThemedText>
+      </Link>
+
     </ThemedView>
   )
 }
