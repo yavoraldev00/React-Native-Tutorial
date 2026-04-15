@@ -34,7 +34,7 @@ export function UserProvider ({ children }) {
     }
     
     async function logout() {
-
+        await account.deleteSession({ sessionId: "current" })
     }
 
     return (
