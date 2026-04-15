@@ -35,7 +35,13 @@ export function UserProvider ({ children }) {
     }
     
     async function logout() {
-        await account.deleteSession({ sessionId: "current" })
+        try {
+            await account.deleteSession("current")
+            setUser(null)
+        } catch (error) {
+            setUser(null)
+            console.error("Logout error:", error.message)
+        }
     }
 
     async function getInitialUserValue() {
