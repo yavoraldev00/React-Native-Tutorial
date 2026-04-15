@@ -8,12 +8,16 @@ import ThemedButton from '../../components/ThemedButton'
 import ThemedTextInput from '../../components/ThemedTextInput'
 import Spacer from '../../components/Spacer'
 import { useState } from 'react'
+import { useUser } from '../../hooks/UseUser'
 
 const Login = () => {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
 
+  const { user } = useUser()
+
   const handleSubmit = () => {
+    console.log("Current user: " + user)
     console.log("Login form submited", email, password)
   }
   return (
