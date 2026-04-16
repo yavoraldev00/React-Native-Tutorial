@@ -1,6 +1,6 @@
 import { Keyboard, StyleSheet, Text, TouchableWithoutFeedback } from 'react-native'
 import { Link } from 'expo-router'
-import { Colors } from '../../constants/Color'
+import { Colors } from '../../constants/Colors'
 import { useState } from 'react'
 import { useUser } from '../../hooks/useUser'
 
