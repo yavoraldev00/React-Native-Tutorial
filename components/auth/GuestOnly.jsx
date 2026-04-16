@@ -1,4 +1,4 @@
-import { useUser } from '../../hooks/UseUser'
+import { useUser } from '../../hooks/useUser'
 import { useRouter } from 'expo-router'
 import { useEffect } from 'react'
 import { Text } from 'react-native'

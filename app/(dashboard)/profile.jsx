@@ -1,5 +1,5 @@
 import { StyleSheet, Text } from 'react-native'
-import { useUser } from '../../hooks/UseUser'
+import { useUser } from '../../hooks/useUser'
 
 import Spacer from "../../components/Spacer"
 import ThemedText from "../../components/ThemedText"

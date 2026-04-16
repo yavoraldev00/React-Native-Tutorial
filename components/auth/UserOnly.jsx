@@ -1,5 +1,5 @@
 import { useRouter } from "expo-router"
-import { useUser } from "../../hooks/UseUser"
+import { useUser } from "../../hooks/useUser"
 import { useEffect } from "react"
 import { Text } from "react-native"
 import ThemedLoader from "../ThemedLoader"
